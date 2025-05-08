@@ -27,45 +27,55 @@
     <nav
       class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute w-100 top-0 z-3"
     >
-      <div class="container">
-        <a class="navbar-brand fw-bold text-white" href="#"
-          >CSE Alumni Association | Premier University</a
+<div class="container">
+  <div class="d-flex flex-column">
+    <a class="navbar-brand fw-bold text-white" href="/index.html">
+      CSE Alumni Association
+    </a>
+    <span class="small text-white">Premier University</span>
+  </div>
+  <button
+    class="navbar-toggler ms-auto"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#navbarNav"
+    aria-controls="navbarNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div
+    class="collapse navbar-collapse justify-content-end"
+    id="navbarNav"
+  >
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active text-white" href="/index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#about">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#events"
+          >Upcoming Events</a
         >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active text-white" href="/index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="/about_us.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="/upcoming_events.html"
-                >Upcoming Events</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="">Committee</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="/committee.html">Committee</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="/join_us.html">Join Us</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+
+
+
     <main>
+
       <!-- Hero Section -->
       <section class="hero d-flex align-items-center text-white">
         <div class="container text-center">
@@ -96,7 +106,7 @@
           <div class="row g-4">
             <div class="col-md-4">
               <div class="mb-3">
-                <i class="bi bi-people-fill display-4 text-primary"></i>
+                <i class="bi bi-people-fill display-4 text-dark"></i>
               </div>
               <h5 class="fw-bold">Lifelong Connections</h5>
               <p class="text-muted">
@@ -106,7 +116,7 @@
             </div>
             <div class="col-md-4">
               <div class="mb-3">
-                <i class="bi bi-lightbulb-fill display-4 text-primary"></i>
+                <i class="bi bi-lightbulb-fill display-4 text-dark"></i>
               </div>
               <h5 class="fw-bold">Shared Knowledge</h5>
               <p class="text-muted">
@@ -116,7 +126,7 @@
             </div>
             <div class="col-md-4">
               <div class="mb-3">
-                <i class="bi bi-calendar-event-fill display-4 text-primary"></i>
+                <i class="bi bi-calendar-event-fill display-4 text-dark"></i>
               </div>
               <h5 class="fw-bold">Community Events</h5>
               <p class="text-muted">
@@ -307,10 +317,10 @@
       </div>
 
       <!-- Two Card Section -->
-      <section class="py-5 bg-light">
+      <section class="py-5 bg-light" id="events">
 
         <div class="text-center mb-5">
-          <h2 class="fw-bold">Our Activities</h2>
+          <h2 class="fw-bold">Events</h2>
 
         <div class="container mt-5">
           <div class="row g-4">
@@ -405,7 +415,7 @@
 
                 <div class="text-center py-3 text-white">
                     <h2 class="fw-bold ">
-                        Events Gallery
+                        Gallery
                     </h2>
                 </div>
 
@@ -478,7 +488,7 @@
           Stay connected, give back, and grow together. Join the CSE Alumni
           Association today and make a lasting impact.
         </p>
-        <a href="#register" class="btn btn-outline-light btn-lg">Join Now</a>
+        <a href="/join_us.html" class="btn btn-outline-light btn-lg">Join Now</a>
       </div>
     </section>
 
